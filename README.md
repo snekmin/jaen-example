@@ -52,27 +52,40 @@ ERP integration **should not** force developer to cut corners.
 One thing and one thing only with clean and well documented interfaces.
 Customizable, extensible and open-source.
 
-**Msg inspiring ppl:** \
+### Msg inspiring ppl
 Chasing ones own tail is not inspiring.
 
-**Disclaimer:** \
+### Disclaimer
 Not for crybabies. Do not touch if you are affraid to be a bit scratche.
 
 ## [](#quick-start)Quick start
 
-Several quick start options are available:
+### ⭐️ Generate from template [Generate Jaen on GitHub](https://github.com/snek-at/jaen-template/generate)
+| Generate from template | Important public and no branches |
+|---|---|
+| ![image](https://user-images.githubusercontent.com/83394650/124399008-16b7d780-dd19-11eb-84bb-769462d5440e.png) | ![image](https://user-images.githubusercontent.com/83394650/124401575-6c48b000-dd2a-11eb-8316-7f583e5e98d7.png) |
 
-- Generate repository from template: [Generate Jaen on GitHub](https://github.com/snek-at/jaen-template/generate)
+### ⭐️ First Deployment
+The `GITHUB_TOKEN` has limitations for the first deployment so we have to select the GitHub Pages branch on the repository settings tab. After that, do the second deployment like the following pictures.
 
-### Codespace setup
+| First deployment failed | Go to the [settings tab](https://github.com/snek-at/jaen-template/settings/pages) |
+|---|---|
+| ![image](https://user-images.githubusercontent.com/83394650/124398796-ecb1e580-dd17-11eb-9f06-64d73eb2d4d9.png) | ![image](https://user-images.githubusercontent.com/83394650/124398815-0ce1a480-dd18-11eb-9aef-9d8a3797008b.png) |
 
+| Select branch | Deploying again and succeed |
+|---|---|
+| ![image](https://user-images.githubusercontent.com/83394650/124398825-1408b280-dd18-11eb-985f-f28de94b8888.png) | ![image](https://user-images.githubusercontent.com/83394650/124398968-d3f5ff80-dd18-11eb-8f17-ee2d92900014.png) |
+
+### ⭐️ Deployment Options
+We recomend to use [vscode](https://github.com/microsoft/vscode) as IDE in either an codespace or local setup.
+
+#### Codespace setup
 The easiest method is to use a GitHub [Codespace](https://github.com/features/codespaces) (in beta). Just create a GitHub Codespace from the Code menu. Wait for the Codespace to complete provisioning. When the Codespace has completed provisioning open a terminal window (Ctrl-`, Control-backquote) and:
 
 - Start a local copy of the docs site with `npm start`
 - Or build a local copy of the library with `npm run build`
 
-### Local setup
-
+#### Local setup
 If you set this up locally, make sure you have the following pre-requisites:
 
 - Add github npm registry: npm login --registry=https://npm.pkg.github.com
