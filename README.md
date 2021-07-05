@@ -52,6 +52,8 @@ ERP integration **should not** force developer to cut corners.
 One thing and one thing only with clean and well documented interfaces.
 Customizable, extensible and open-source.
 
+### Roadmap
+
 ### Msg inspiring ppl
 Chasing ones own tail is not inspiring.
 
