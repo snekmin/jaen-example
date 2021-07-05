@@ -7,7 +7,7 @@
 <h3 align="center">Snek Jaen Template</h3>
 
 <p align="center">
-  This is the official jaen projects of snek-at.
+  This is the official jaen project of snek-at.
   Free, sexy and cutting edge CMS framework for ReactJS.
   <br>
   <br>
@@ -82,13 +82,15 @@ We recomend to use [vscode](https://github.com/microsoft/vscode) as IDE in eithe
 #### Codespace setup
 The easiest method is to use a GitHub [Codespace](https://github.com/features/codespaces) (in beta). Just create a GitHub Codespace from the Code menu. Wait for the Codespace to complete provisioning. When the Codespace has completed provisioning open a terminal window (Ctrl-`, Control-backquote) and:
 
+- Add [GitHub npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry) `npm login --registry=https://npm.pkg.github.com`
+- Create .env and set PUBLIC_URL
 - Start a local copy of the docs site with `npm start`
 - Or build a local copy of the library with `npm run build`
 
 #### Local setup
 If you set this up locally, make sure you have the following pre-requisites:
 
-- Add github npm registry: npm login --registry=https://npm.pkg.github.com
+- Add [GitHub npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry) `npm login --registry=https://npm.pkg.github.com`
 - Use `npm install` to install all dependencies
 - Start a local copy of the docs site with `npm start`
 - Or build a local copy of the library with `npm run build`
