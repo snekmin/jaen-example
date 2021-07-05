@@ -97,6 +97,9 @@ If you set this up locally, make sure you have the following pre-requisites:
 
 The demo site will now be accessible at <http://localhost:3000/>.
 
+### ⭐️ Jaen Features
+
+
 ## [](#bug-and-feature-requests)Bugs and feature requests
 
 Have a bug or a feature request? Please first search for existing and closed issues. If your problem or idea is not
