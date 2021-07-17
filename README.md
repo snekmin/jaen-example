@@ -38,7 +38,7 @@
     - [Deployment Options](#deployment-options)
         - [Codespace Setup](#codespace-setup)
         - [Local Setup](#local-setup)
-- [✏️ Let's write some Code](#-lets-write-some-code)
+- [✏️ How to Code](#-how-to-code)
     - [Overview](#overview)
         - [App Settings](#app-settings)
         - [Page Settings](#page-settings)
@@ -155,7 +155,7 @@ If you set this up locally, make sure you have the following pre-requisites:
 
 The demo site will now be accessible at <http://localhost:3000/>.
 
-## [](#-lets-write-some-code)✏️ Let's write some Code
+## [](#-how-to-code)✏️ How to Code
 
 ### Overview
 
