@@ -26,7 +26,7 @@
   </a>
 </p>
 
-## What’s In This Document
+## [](#table-of-contents)What’s In This Document
 
 - [Table of contents](#table-of-contents)
 - [Motivation](#motivation)
@@ -118,6 +118,11 @@ directions for opening issues, coding standards, and notes on development.
 All code should conform to the [Code Guide](https://github.com/snek-at/tonic/blob/master/STYLE_GUIDE.md), maintained by
 [snek-at](https://github.com/snek-at).
 
+## [](#thanks)💚 Thanks
+
+We do not have any external contributors yet, but if you want your name to be here, feel free
+to [contribute to our project](#contributing).
+
 ## [](#creators)💼 Creators
 
 <table border="0">
@@ -139,12 +144,7 @@ All code should conform to the [Code Guide](https://github.com/snek-at/tonic/blo
     </tr>
 </table>
 
-## [](#thanks)💚 Thanks
-
-We do not have any external contributors yet, but if you want your name to be here, feel free
-to [contribute to our project](#contributing).
-
-## [](#thanks)🤔 FAQs
+## [](#faq)🤔 FAQs
 **Q:** What do the roadmap categories mean?
 * Shipped - Hopefully you are enjoying it! Give us feedback on how it is working!
 * Almost There - We are applying the finishing touches. Things in this bucket you can expect to be shipped within 2-4 weeks. 
