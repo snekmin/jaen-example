@@ -38,6 +38,26 @@
     - [Deployment Options](#deployment-options)
         - [Codespace Setup](#codespace-setup)
         - [Local Setup](#local-setup)
+- [✏️ Let's write some Code](#-lets-write-some-code)
+    - [Overview](#overview)
+        - [App Settings](#app-settings)
+        - [Page Settings](#page-settings)
+        - [Fields](#fields)
+    - [App Settings](#app-settings)
+    - [Page Settings](#page-settings)
+    - [Fields](#fields)
+        - [SimpleTextField](#simpletextfield)
+        - [SimpleRichTextField](#simplerichtextfield)
+        - [SimpleImageField](#simpleimagefield)
+        - [SimplePdfField](#simplepdffield)
+        - [StreamField](#streamfield)
+        - [IndexField](#indexfield)
+- [🐞 How to Report a Bug or Request a Feature](#-how-to-report-a-bug-or-request-a-feature)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💚 Thanks](#-thanks)
+- [💼 Creators](#-creators)
+- [🤔 FAQs](#-faqs)
+- [📝 Copyright and License](#-copyright-and-license)
 - [🐞 How to Report a Bug or Request a Feature](#-how-to-report-a-bug-or-request-a-feature)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [💚 Thanks](#-thanks)
@@ -135,18 +155,171 @@ If you set this up locally, make sure you have the following pre-requisites:
 
 The demo site will now be accessible at <http://localhost:3000/>.
 
-## [](#-get-up-and-running-in-5-minutes)✏️ Let's write some Code
+## [](#-lets-write-some-code)✏️ Let's write some Code
 
 ### Overview
+
+#### App Settings
 | Field                         | Properties | Description | Wiki | Tutorial |
+|-------------------------------|------------|:-----------:|:----:|:--------:|
+| `CMSProvider`             	| settings <br/> pages |  |  |  |
+
+#### Page Settings
+| Field                         | Type       | Description | Wiki | Tutorial |
 |-------------------------------|:----------:|:-----------:|:----:|:--------:|
-| `IndexField`                  | ✅️ <br /> test oda so a|  |  |  |
-| `SimpleTextField`             | ✅️ |  |  |  |
-| `SimpleRichTextField`         | ✅️ |  |  |  |
-| `EditableField`               | ✅️ |  |  |  |
-| `StreamField`                 | ✅️ |  |  |  |
-| `DocumentField`               |  | ✅️ |  |  |
-| `MediaField`                  |  | ✅️ |  |  |
+| `PageType`             	| string     |  |  |  |
+| `ChildPages`         		| [Pages]    |  |  |  |
+
+
+#### Fields
+| Field                         | Properties | Description | Wiki | Tutorial |
+|-------------------------------|------------|:-----------:|:----:|:--------:|
+| `SimpleTextField`             | name <br/> |  |  |  |
+| `SimpleRichTextField`         | name <br/> |  |  |  |
+| `SimpleImageField`            | name <br/> imageStyle|  |  |  |
+| `SimplePdfField`            	| name <br/> pdfStyle |  |  |  |
+| `StreamField`                 | name <br/> reverseOrder <br/> blocks|  |  |  |
+| `IndexField`                  | fixedSlug <br/> outerElement <br/> renderItem |  |  |  |
+
+### App Settings
+```javascript
+import {CMSProvider} from '@snek-at/jaen'
+
+import {HomePage} from '...'
+import ImprintPage from '...'
+
+const App: React.FC = () => {
+  return (
+    <div style={{margin: 150}}>
+      <CMSProvider
+        settings={{gitRemote: process.env.REACT_APP_JAEN_GIT_REMOTE}}
+        pages={[HomePage, ImprintPage]}></CMSProvider>
+    </div>
+  )
+}
+)
+```
+
+### Page Settings
+```javascript
+import ImprintPage from '...'
+
+const HomePage: ConnectedPageType = () => {...}
+
+HomePage.PageType = 'HomePage'
+HomePage.ChildPages = [ImprintPage]
+
+export default HomePage
+```
+### Fields
+#### SimpleTextField
+```javascript
+import {SimpleTextField} from '@snek-at/jaen'
+
+const HomePage: ConnectedPageType = () => {
+  return (
+    <SimpleTextField name="stffield" />
+  )
+}
+
+[...]
+
+export default HomePage
+```
+
+#### SimpleRichTextField
+```javascript
+import {SimpleRichTextField} from '@snek-at/jaen'
+
+const HomePage: ConnectedPageType = () => {
+  return (
+    <SimpleRichTextField name="srtffield" />
+  )
+}
+
+[...]
+
+export default HomePage
+```
+
+#### SimpleImageField
+```javascript
+import {SimpleImageField} from '@snek-at/jaen'
+
+const HomePage: ConnectedPageType = () => {
+  return (
+    <SimpleImageField
+      name="siffield"
+      imageStyle={{width: '500px', height: '500px', objectFit: 'cover'}}
+    />
+  )
+}
+
+[...]
+
+export default HomePage
+```
+
+#### SimplePdfField 
+```javascript
+import {SimplePdfField} from '@snek-at/jaen'
+
+const HomePage: ConnectedPageType = () => {
+  return (
+     <SimplePdfField name="spffield" pdfStyle={{height: 1000, width: 1000}} />
+  )
+}
+
+[...]
+
+export default HomePage
+```
+
+#### StreamField
+```javascript
+import {StreamField} from '@snek-at/jaen'
+import {CardBlock} from '...'
+
+const HomePage: ConnectedPageType = () => {
+  return (
+    <div style={{width: '50%', display: 'table'}}>
+      <StreamField
+        reverseOrder={false}
+        name={'timeline'}
+        blocks={[CardBlock]}
+      />
+    </div>
+  )
+}
+
+[...]
+
+export default HomePage
+```
+
+#### IndexField
+```javascript
+import {IndexField} from '@snek-at/jaen'
+
+const HomePage: ConnectedPageType = () => {
+  return (
+    <IndexField
+      fixedSlug={'home'}
+      outerElement={() => <div />}
+      renderItem={(item, key, navigate) => (
+        <p key={key}>
+          Slug: {item.slug} Title: {item.title}{' '}
+          <button onClick={() => navigate()}>Goto</button>
+        </p>
+       )}
+    />
+  )
+}
+
+[...]
+
+export default HomePage
+```
 
 ## [](#-how-to-report-a-bug-or-request-a-feature)🐞 How to Report a Bug or Request a Feature
 
