@@ -58,8 +58,38 @@ One thing and one thing only with clean and well documented interfaces.
 Customizable, extensible and open-source.
 
 ### Jaen Features
-
+* A fast, attractive interface for authors
+* Complete control over front-end design and structure
+* Fast out of the box, cache-friendly when you need it
+* Content API for 'headless' sites with de-coupled front-end
+* StreamField encourages flexible content without compromising structure
+* Excellent support for images and embedded content
+* Multi-site and multi-language ready
+* Powerd by blockchain and can be run for free
 ### Roadmap
+| Token | Shipped | Almost There | We're Writing the Code | Investigating |
+|---|:---:|:---:|:---:|:---:|
+| `IndexField` | ✅️ |  |  |  |
+| `RichTextField` | ✅️ |  |  |  |
+| `Email Support` | ✅️ |  |  |  |
+| `Fixed parent for IndexField` | ✅️ |  |  |  |
+| `TextField` | ✅️ |  |  |  |
+| `Dynamic Routes` | ✅️ |  |  |  |
+| `DocumentField` |  | ✅️ |  |  |
+| `MediaField` |  | ✅️ |  |  |
+| `StreamField` |  | ✅️ |  |  |
+| `LinkField` |  | ✅️ |  |  |
+| `Gatsby` |  |  | ✅️ |  |
+| `Converter (HELMUT)` |  |  | ✅️ |  |
+| `Smart Converter (SMARTMUT)` |  |  |  | ✅️ |
+| `E-Commerce` |  |  |  | ✅️ |
+| `User Management` |  |  |  | ✅️ |
+| `Email Templates` |  |  |  | ✅️ |
+| `personal_token` |  |  |  | ✅️ |
+| `Development Tools` |  |  |  | ✅️ |
+| `Snek Editor` |  |  |  | ✅️ |
+| `YT Tutorials` |  |  |  | ✅️ |
+
 
 #### Msg inspiring PPL
 Chasing ones own tail is not inspiring.
