@@ -140,25 +140,13 @@ The demo site will now be accessible at <http://localhost:3000/>.
 ### Overview
 | Field                         | Properties | Description | Wiki | Tutorial |
 |-------------------------------|:----------:|:-----------:|:----:|:--------:|
-| `IndexField`                  | ✅️ |  |  |  |
-| `RichTextField`               | ✅️ |  |  |  |
-| `Email Support`               | ✅️ |  |  |  |
-| `Fixed parent for IndexField` | ✅️ |  |  |  |
-| `TextField`                   | ✅️ |  |  |  |
-| `Dynamic Routes`              | ✅️ |  |  |  |
+| `IndexField`                  | ✅️ <br /> test oda so a|  |  |  |
+| `SimpleTextField`             | ✅️ |  |  |  |
+| `SimpleRichTextField`         | ✅️ |  |  |  |
+| `EditableField`               | ✅️ |  |  |  |
+| `StreamField`                 | ✅️ |  |  |  |
 | `DocumentField`               |  | ✅️ |  |  |
 | `MediaField`                  |  | ✅️ |  |  |
-| `StreamField`                 |  | ✅️ |  |  |
-| `LinkField`                   |  | ✅️ |  |  |
-| `Gatsby`                      |  |  | ✅️ |  |
-| `Converter (HELMUT)`          |  |  | ✅️ |  |
-| `Smart Converter (SMARTMUT)`  |  |  |  | ✅️ |
-| `E-Commerce`                  |  |  |  | ✅️ |
-| `User Management`             |  |  |  | ✅️ |
-| `Email Templates`             |  |  |  | ✅️ |
-| `Development Tools`           |  |  |  | ✅️ |
-| `Snek Editor`                 |  |  |  | ✅️ |
-| `YT Tutorials`                |  |  |  | ✅️ |
 
 ## [](#-how-to-report-a-bug-or-request-a-feature)🐞 How to Report a Bug or Request a Feature
 
