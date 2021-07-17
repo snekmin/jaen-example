@@ -26,7 +26,7 @@
   </a>
 </p>
 
-## Table of contents
+## What’s In This Document
 
 - [Table of contents](#table-of-contents)
 - [Motivation](#motivation)
@@ -40,9 +40,9 @@
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
 
-## [](#motivation)Motivation
+## [](#motivation)💪 Motivation
 
-A CMS **should not** be the defining feature of a webapp. Nighter should Ecommerce or anything other than your code. \
+A CMS **should not** be the defining feature of a webapp. Neither should Ecommerce or anything other than your code. \
 ERP integration **should not** force developer to cut corners.
 
 - Jaen **does not** interfere with **your** user experience.
@@ -52,22 +52,24 @@ ERP integration **should not** force developer to cut corners.
 One thing and one thing only with clean and well documented interfaces.
 Customizable, extensible and open-source.
 
+### Jaen Features
+
 ### Roadmap
 
-### Msg inspiring ppl
+#### Msg inspiring PPL
 Chasing ones own tail is not inspiring.
 
-### Disclaimer
-Not for crybabies. Do not touch if you are affraid to be a bit scratche.
+#### Disclaimer
+Not for crybabies. Do not touch if you are affraid to be a bit scratched.
 
-## [](#quick-start)Quick start
+## [](#quick-start)🚀 Get Up and Running in 5 Minutes
 
-### ⭐️ Generate from template [Generate Jaen on GitHub](https://github.com/snek-at/jaen-template/generate)
+### Generate from template [Generate Jaen on GitHub](https://github.com/snek-at/jaen-template/generate)
 | Generate from template | Important public and no branches |
 |---|---|
 | ![image](https://user-images.githubusercontent.com/83394650/124399008-16b7d780-dd19-11eb-84bb-769462d5440e.png) | ![image](https://user-images.githubusercontent.com/83394650/124401575-6c48b000-dd2a-11eb-8316-7f583e5e98d7.png) |
 
-### ⭐️ First Deployment
+### First Deployment
 The `GITHUB_TOKEN` has limitations for the first deployment so we have to select the GitHub Pages branch on the repository settings tab. After that, do the second deployment like the following pictures.
 
 | First deployment failed | Go to the [settings tab](https://github.com/snek-at/jaen-template/settings/pages) |
@@ -78,10 +80,10 @@ The `GITHUB_TOKEN` has limitations for the first deployment so we have to select
 |---|---|
 | ![image](https://user-images.githubusercontent.com/83394650/124398825-1408b280-dd18-11eb-985f-f28de94b8888.png) | ![image](https://user-images.githubusercontent.com/83394650/124398968-d3f5ff80-dd18-11eb-8f17-ee2d92900014.png) |
 
-### ⭐️ Deployment Options
+### Deployment Options
 We recomend to use [vscode](https://github.com/microsoft/vscode) as IDE in either an codespace or local setup.
 
-#### Codespace setup
+#### Codespace Setup
 The easiest method is to use a GitHub [Codespace](https://github.com/features/codespaces) (in beta). Just create a GitHub Codespace from the Code menu. Wait for the Codespace to complete provisioning. When the Codespace has completed provisioning open a terminal window (Ctrl-`, Control-backquote) and:
 
 - Add [GitHub npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry) `npm login --registry=https://npm.pkg.github.com`
@@ -89,7 +91,7 @@ The easiest method is to use a GitHub [Codespace](https://github.com/features/co
 - Start a local copy of the docs site with `npm start`
 - Or build a local copy of the library with `npm run build`
 
-#### Local setup
+#### Local Setup
 If you set this up locally, make sure you have the following pre-requisites:
 
 - Add [GitHub npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry) `npm login --registry=https://npm.pkg.github.com`
@@ -99,16 +101,12 @@ If you set this up locally, make sure you have the following pre-requisites:
 
 The demo site will now be accessible at <http://localhost:3000/>.
 
-### ⭐️ Jaen Features
-
-
-## [](#bug-and-feature-requests)Bugs and feature requests
+## [](#bug-and-feature-requests)🐞 How to Report a Bug or Request a Feature
 
 Have a bug or a feature request? Please first search for existing and closed issues. If your problem or idea is not
 addressed yet, [please open a new issue](https://github.com/snek-at/jaen/issues/new/choose).
 
-## [](#contributing)Contributing
-
+## [](#contributing)🤝 How to Contribute
 ![GitHub last commit](https://img.shields.io/github/last-commit/snek-at/jaen)
 ![GitHub issues](https://img.shields.io/github/issues-raw/snek-at/jaen)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/snek-at/jaen?color=green)
@@ -120,13 +118,7 @@ directions for opening issues, coding standards, and notes on development.
 All code should conform to the [Code Guide](https://github.com/snek-at/tonic/blob/master/STYLE_GUIDE.md), maintained by
 [snek-at](https://github.com/snek-at).
 
-## [](#versioning)Versioning
-
-For transparency into our release cycle and in striving to maintain backward compatibility, this repository is
-maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to
-those rules whenever possible.
-
-## [](#creators)Creators
+## [](#creators)💼 Creators
 
 <table border="0">
     <tr>
@@ -147,14 +139,44 @@ those rules whenever possible.
     </tr>
 </table>
 
-## [](#thanks)Thanks
+## [](#thanks)💚 Thanks
 
 We do not have any external contributors yet, but if you want your name to be here, feel free
 to [contribute to our project](#contributing).
 
-## [](#copyright-and-license)Copyright and license
+## [](#thanks)🤔 FAQs
+**Q:** What do the roadmap categories mean?
+* Shipped - Hopefully you are enjoying it! Give us feedback on how it is working!
+* Almost There - We are applying the finishing touches. Things in this bucket you can expect to be shipped within 2-4 weeks. 
+* We're Writing the Code - Actively in development, we are trying to get this out to you in a good state as soon as we can.
+* Investigating - We're thinking about it. This might mean we're still designing, or thinking through how this might work. This is a great phase to send how you want to see something implemented! We'd love to see your usecase or design ideas here.
+
+**Q:** Why are there no dates on your roadmap?
+
+**A:** Because we know things change and we want the room to do the right thing by fixing security issues as they come up or helping people out where they need. This means we might have to change our priorities and don’t want to let people down. 
+
+**Q:** How can I provide feedback or ask for more information?
+
+**A:** Please open an issue in this repo! If the issue is a bug or security issue, please follow the separate instructions above.
+
+**Q:** How can I request a feature be added to the roadmap?
+
+**A:** Please open an issue! You can read about how to contribute [here](https://github.com/snek-at/jaen/blob/master/CONTRIBUTING.MD). Community submitted issues will be tagged "Proposed" and will be reviewed by the team.
+
+**Q:** Will you accept a pull request?
+
+**A:** We haven't worked out how pull requests should work for a public roadmap page, but we will take all PRs very seriously and review for inclusion. Read about contributing. We review these each week. 
+
+## [](#copyright-and-license)📝 Copyright and License
 
 ![GitHub repository license](https://img.shields.io/badge/license-EUPL--1.2-blue)
 
-SPDX-License-Identifier: EUPL-1.2
-SPDX-FileCopyrightText: Copyright © 2021 snek.at
+Use of this source code is governed by an EUPL-1.2 license that can be found
+in the LICENSE file at https://snek.at/license
+
+<!--
+  SPDX-FileCopyrightText: Copyright © 2021 snek.at
+  SPDX-License-Identifier: EUPL-1.2
+  Use of this source code is governed by an EUPL-1.2 license that can be found
+  in the LICENSE file at https://snek.at/license
+-->
