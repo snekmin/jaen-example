@@ -168,10 +168,6 @@ to [contribute to our project](#contributing).
 
 **A:** Please open an issue! You can read about how to contribute [here](https://github.com/snek-at/jaen/blob/master/CONTRIBUTING.MD). Community submitted issues will be tagged "Proposed" and will be reviewed by the team.
 
-**Q:** Will you accept a pull request?
-
-**A:** We haven't worked out how pull requests should work for a public roadmap page, but we will take all PRs very seriously and review for inclusion. Read about contributing. We review these each week. 
-
 ## [](#-copyright-and-license)📝 Copyright and License
 
 ![GitHub repository license](https://img.shields.io/badge/license-EUPL--1.2-blue)
