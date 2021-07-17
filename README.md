@@ -27,20 +27,25 @@
 </p>
 
 ## [](#table-of-contents)What’s In This Document
+- [💪 Motivation](#-motivation)
+    - [Jaen Features](#jaen-features)
+    - [Roadmap](#roadmap)
+        - [Msg inspiring PPL](#msg-inspiring-ppl)
+        - [Disclaimer](#disclaimer)
+- [🚀 Get Up and Running in 5 Minutes](#-get-up-and-running-in-5-minutes)
+    - [Generate from template Generate Jaen on GitHub](#generate-from-template-generate-jaen-on-github)
+    - [First Deployment](#first-deployment)
+    - [Deployment Options](#deployment-options)
+        - [Codespace Setup](#codespace-setup)
+        - [Local Setup](#local-setup)
+- [🐞 How to Report a Bug or Request a Feature](#-how-to-report-a-bug-or-request-a-feature)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💚 Thanks](#-thanks)
+- [💼 Creators](#-creators)
+- [🤔 FAQs](#-faqs)
+- [📝 Copyright and License](#-copyright-and-license)
 
-- [Table of contents](#table-of-contents)
-- [Motivation](#motivation)
-- [Quick start](#quick-start)
-  - [Codespace setup](#codespace-setup)
-  - [Local setup](#local-setup)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Contributing](#contributing)
-- [Versioning](#versioning)
-- [Creators](#creators)
-- [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
-
-## [](#motivation)💪 Motivation
+## [](#-motivation)💪 Motivation
 
 A CMS **should not** be the defining feature of a webapp. Neither should Ecommerce or anything other than your code. \
 ERP integration **should not** force developer to cut corners.
@@ -62,7 +67,7 @@ Chasing ones own tail is not inspiring.
 #### Disclaimer
 Not for crybabies. Do not touch if you are affraid to be a bit scratched.
 
-## [](#quick-start)🚀 Get Up and Running in 5 Minutes
+## [](#-get-up-and-running-in-5-minutes)🚀 Get Up and Running in 5 Minutes
 
 ### Generate from template [Generate Jaen on GitHub](https://github.com/snek-at/jaen-template/generate)
 | Generate from template | Important public and no branches |
@@ -101,12 +106,12 @@ If you set this up locally, make sure you have the following pre-requisites:
 
 The demo site will now be accessible at <http://localhost:3000/>.
 
-## [](#bug-and-feature-requests)🐞 How to Report a Bug or Request a Feature
+## [](#-how-to-report-a-bug-or-request-a-feature)🐞 How to Report a Bug or Request a Feature
 
 Have a bug or a feature request? Please first search for existing and closed issues. If your problem or idea is not
 addressed yet, [please open a new issue](https://github.com/snek-at/jaen/issues/new/choose).
 
-## [](#contributing)🤝 How to Contribute
+## [](#-how-to-contribute)🤝 How to Contribute
 ![GitHub last commit](https://img.shields.io/github/last-commit/snek-at/jaen)
 ![GitHub issues](https://img.shields.io/github/issues-raw/snek-at/jaen)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/snek-at/jaen?color=green)
@@ -118,12 +123,12 @@ directions for opening issues, coding standards, and notes on development.
 All code should conform to the [Code Guide](https://github.com/snek-at/tonic/blob/master/STYLE_GUIDE.md), maintained by
 [snek-at](https://github.com/snek-at).
 
-## [](#thanks)💚 Thanks
+## [](#-thanks)💚 Thanks
 
 We do not have any external contributors yet, but if you want your name to be here, feel free
 to [contribute to our project](#contributing).
 
-## [](#creators)💼 Creators
+## [](#-creators)💼 Creators
 
 <table border="0">
     <tr>
@@ -144,7 +149,7 @@ to [contribute to our project](#contributing).
     </tr>
 </table>
 
-## [](#faq)🤔 FAQs
+## [](#-faqs)🤔 FAQs
 **Q:** What do the roadmap categories mean?
 * Shipped - Hopefully you are enjoying it! Give us feedback on how it is working!
 * Almost There - We are applying the finishing touches. Things in this bucket you can expect to be shipped within 2-4 weeks. 
@@ -167,7 +172,7 @@ to [contribute to our project](#contributing).
 
 **A:** We haven't worked out how pull requests should work for a public roadmap page, but we will take all PRs very seriously and review for inclusion. Read about contributing. We review these each week. 
 
-## [](#copyright-and-license)📝 Copyright and License
+## [](#-copyright-and-license)📝 Copyright and License
 
 ![GitHub repository license](https://img.shields.io/badge/license-EUPL--1.2-blue)
 
