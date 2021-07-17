@@ -66,30 +66,29 @@ Customizable, extensible and open-source.
 * Excellent support for images and embedded content
 * Multi-site and multi-language ready
 * Powerd by blockchain and can be run for free
-### Roadmap
-| Token | Shipped | Almost There | We're Writing the Code | Investigating |
-|---|:---:|:---:|:---:|:---:|
-| `IndexField` | ✅️ |  |  |  |
-| `RichTextField` | ✅️ |  |  |  |
-| `Email Support` | ✅️ |  |  |  |
-| `Fixed parent for IndexField` | ✅️ |  |  |  |
-| `TextField` | ✅️ |  |  |  |
-| `Dynamic Routes` | ✅️ |  |  |  |
-| `DocumentField` |  | ✅️ |  |  |
-| `MediaField` |  | ✅️ |  |  |
-| `StreamField` |  | ✅️ |  |  |
-| `LinkField` |  | ✅️ |  |  |
-| `Gatsby` |  |  | ✅️ |  |
-| `Converter (HELMUT)` |  |  | ✅️ |  |
-| `Smart Converter (SMARTMUT)` |  |  |  | ✅️ |
-| `E-Commerce` |  |  |  | ✅️ |
-| `User Management` |  |  |  | ✅️ |
-| `Email Templates` |  |  |  | ✅️ |
-| `personal_token` |  |  |  | ✅️ |
-| `Development Tools` |  |  |  | ✅️ |
-| `Snek Editor` |  |  |  | ✅️ |
-| `YT Tutorials` |  |  |  | ✅️ |
 
+### Roadmap
+| Feature                       | Shipped | Almost There | We're Writing the Code | Investigating |
+|-------------------------------|:---:|:---:|:---:|:---:|
+| `IndexField`                  | ✅️ |  |  |  |
+| `RichTextField`               | ✅️ |  |  |  |
+| `Email Support`               | ✅️ |  |  |  |
+| `Fixed parent for IndexField` | ✅️ |  |  |  |
+| `TextField`                   | ✅️ |  |  |  |
+| `Dynamic Routes`              | ✅️ |  |  |  |
+| `DocumentField`               |  | ✅️ |  |  |
+| `MediaField`                  |  | ✅️ |  |  |
+| `StreamField`                 |  | ✅️ |  |  |
+| `LinkField`                   |  | ✅️ |  |  |
+| `Gatsby`                      |  |  | ✅️ |  |
+| `Converter (HELMUT)`          |  |  | ✅️ |  |
+| `Smart Converter (SMARTMUT)`  |  |  |  | ✅️ |
+| `E-Commerce`                  |  |  |  | ✅️ |
+| `User Management`             |  |  |  | ✅️ |
+| `Email Templates`             |  |  |  | ✅️ |
+| `Development Tools`           |  |  |  | ✅️ |
+| `Snek Editor`                 |  |  |  | ✅️ |
+| `YT Tutorials`                |  |  |  | ✅️ |
 
 #### Msg inspiring PPL
 Chasing ones own tail is not inspiring.
@@ -135,6 +134,31 @@ If you set this up locally, make sure you have the following pre-requisites:
 - Or build a local copy of the library with `npm run build`
 
 The demo site will now be accessible at <http://localhost:3000/>.
+
+## [](#-get-up-and-running-in-5-minutes)✏️ Let's write some Code
+
+### Overview
+| Field                         | Properties | Description | Wiki | Tutorial |
+|-------------------------------|:----------:|:-----------:|:----:|:--------:|
+| `IndexField`                  | ✅️ |  |  |  |
+| `RichTextField`               | ✅️ |  |  |  |
+| `Email Support`               | ✅️ |  |  |  |
+| `Fixed parent for IndexField` | ✅️ |  |  |  |
+| `TextField`                   | ✅️ |  |  |  |
+| `Dynamic Routes`              | ✅️ |  |  |  |
+| `DocumentField`               |  | ✅️ |  |  |
+| `MediaField`                  |  | ✅️ |  |  |
+| `StreamField`                 |  | ✅️ |  |  |
+| `LinkField`                   |  | ✅️ |  |  |
+| `Gatsby`                      |  |  | ✅️ |  |
+| `Converter (HELMUT)`          |  |  | ✅️ |  |
+| `Smart Converter (SMARTMUT)`  |  |  |  | ✅️ |
+| `E-Commerce`                  |  |  |  | ✅️ |
+| `User Management`             |  |  |  | ✅️ |
+| `Email Templates`             |  |  |  | ✅️ |
+| `Development Tools`           |  |  |  | ✅️ |
+| `Snek Editor`                 |  |  |  | ✅️ |
+| `YT Tutorials`                |  |  |  | ✅️ |
 
 ## [](#-how-to-report-a-bug-or-request-a-feature)🐞 How to Report a Bug or Request a Feature
 
